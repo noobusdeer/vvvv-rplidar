@@ -1,5 +1,6 @@
 out
 .vs
 vvvv-rplidar/obj
-lib-rplidar/x64
+lib-rplidar/build
+lib-rplidar/.vs
 packages
