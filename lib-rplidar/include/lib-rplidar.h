@@ -5,5 +5,6 @@
 
 #include <iostream>
 #include <Windows.h>
+#include "rplidar.h"
 
 // TODO: Reference additional headers your program requires here.

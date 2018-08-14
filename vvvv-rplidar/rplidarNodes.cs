@@ -30,6 +30,8 @@ namespace VVVV.Nodes
 
         [DllImport("lib-rplidar.dll")]
         public static extern int testfunc(int n);
+        [DllImport("lib-rplidar.dll")]
+        public static extern void test();
 
         #endregion fields & pins
 
@@ -39,7 +41,9 @@ namespace VVVV.Nodes
 
             for (int i = 0; i < SpreadMax; i++)
                 FOutput[i] = testfunc((int)FInput[i]);
-            
+
+            test();
+
            // FLogger.Log(LogType.Debug, testfunc(0).ToString());
         }
     }
