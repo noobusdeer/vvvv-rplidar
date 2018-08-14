@@ -1,0 +1,7 @@
+﻿  main.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\simple_grabber\main.cpp(61): error C3688: invalid literal suffix 'RPLIDAR_SDK_VERSION'; literal operator or literal operator template 'operator ""RPLIDAR_SDK_VERSION' not found
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\simple_grabber\main.cpp(195): error C3688: invalid literal suffix 'RPLIDAR_SDK_VERSION'; literal operator or literal operator template 'operator ""RPLIDAR_SDK_VERSION' not found

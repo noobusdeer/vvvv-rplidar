@@ -1,0 +1,600 @@
+﻿  TcpChannelSelDlg.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+  stdafx.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+  SerialSelDlg.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+  scanView.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\scanview.cpp(178): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  MainFrm.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\mainfrm.cpp(44): warning C4018: '>=': signed/unsigned mismatch
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\mainfrm.cpp(145): warning C4018: '<': signed/unsigned mismatch
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(602): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(586): note: while compiling class template member function 'BOOL WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::AddSimpleReBarBandCtrl(HWND,HWND,int,LPCTSTR,BOOL,int,BOOL)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(681): note: see reference to function template instantiation 'BOOL WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::AddSimpleReBarBandCtrl(HWND,HWND,int,LPCTSTR,BOOL,int,BOOL)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(1279): note: see reference to class template instantiation 'WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(991): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(989): note: while compiling class template member function 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(1255): note: see reference to function template instantiation 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)' being compiled
+  FreqSetDlg.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+  framegrabber.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(991): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(989): note: while compiling class template member function 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(1255): note: see reference to function template instantiation 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlframe.h(1279): note: see reference to class template instantiation 'WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>' being compiled
+  lidarmgr.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\drvlogic\lidarmgr.cpp(27): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  AboutDlg.cpp
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1319): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atluser.h(1329): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\sdk\include\rplidar_cmd.h(213): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): note: while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): note: see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): note: see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): note: while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): note: see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): note: while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): note: see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+  d:\noobusdeer\proj\vvvv\lidar\sdk\sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): note: see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
