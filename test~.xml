@@ -7,17 +7,17 @@
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE systemname="Renderer (TTY)" nodename="Renderer (TTY)" componentmode="InAWindow" id="5">
-   <BOUNDS type="Node" left="2220" top="2160" width="100" height="100">
+   <BOUNDS type="Node" left="2820" top="960" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2220" top="2160" width="2400" height="1800">
+   <BOUNDS type="Box" left="2820" top="960" width="2400" height="1800">
    </BOUNDS>
    <BOUNDS type="Window" left="-12375" top="4365" width="10860" height="4980">
    </BOUNDS>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="6">
-   <BOUNDS type="Box" left="750" top="420" width="795" height="240">
+   <BOUNDS type="Box" left="795" top="570" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="750" top="420" width="0" height="0">
+   <BOUNDS type="Node" left="795" top="570" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
@@ -35,7 +35,21 @@
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="6" srcpinname="Y Output Value" dstnodeid="7" dstpinname="Input">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="8">
+   <BOUNDS type="Box" left="795" top="1875" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="795" top="1875" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="8" dstpinname="Y Input Value">
    </LINK>
    </PATCH>
