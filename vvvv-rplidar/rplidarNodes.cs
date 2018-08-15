@@ -23,9 +23,13 @@ namespace VVVV.Nodes
         [Input("Enable", DefaultValue = 0.0)]
         public ISpread<bool> FEnable;
 
-        [Output("Output")]
-        public ISpread<double> FOutput;
-
+        [Output("Angle")]
+        public ISpread<double> FAngle;
+        [Output("Distance")]
+        public ISpread<double> FDist;
+        [Output("Quality")]
+        public ISpread<double> FQ;
+        
         [Import()]
         public ILogger FLogger;
 
@@ -34,24 +38,34 @@ namespace VVVV.Nodes
 
         [DllImport("lib-rplidar.dll")]
         public static extern void startScan();
-
         [DllImport("lib-rplidar.dll")] 
         public static extern void stopScan();
 
+        [DllImport("lib-rplidar.dll")] 
+        public static extern int update();
+
+        [DllImport("lib-rplidar.dll")] 
+        public static extern float getAngle(int i);
+        [DllImport("lib-rplidar.dll")] 
+        public static extern float getDist(int i);
+        [DllImport("lib-rplidar.dll")] 
+        public static extern float getQuality(int i);
+
+        [DllImport("lib-rplidar.dll")] 
+        public static extern void finish();
+
         private bool started;
-        private int deb;
+        private int count = 0;
 
         #endregion fields & pins
-        public rplidar() {
-            init();
-        }
+        public rplidar() { init(); }
+        ~rplidar() { finish(); }
 
         public void Evaluate(int SpreadMax)
         {
-            FOutput.SliceCount = SpreadMax;
-            for (int i = 0; i < SpreadMax; i++){
-                if(started != FEnable[i]){
-                    started = FEnable[i];
+            
+            if(started != FEnable[0]){
+                    started = FEnable[0];
                     if(started) {
                         FLogger.Log(LogType.Debug, "started");
                         startScan();
@@ -60,9 +74,19 @@ namespace VVVV.Nodes
                        FLogger.Log(LogType.Debug, "stoped");
                          stopScan();
                     }
-                }
-                FOutput[i] = deb;
-             }
+            }
+
+            count = update();
+
+            FAngle.SliceCount = count;
+            FDist.SliceCount = count;
+            FQ.SliceCount = count;
+
+            for(int i = 0; i < count; i++){
+                FAngle[i] = getAngle(i);
+                FDist[i] = getDist(i);
+                FQ[i] = getQuality(i);
+            }
         }
     }
 }
