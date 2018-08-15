@@ -1,6 +1,8 @@
 out
+!out/test.v4p
 .vs
 vvvv-rplidar/obj
+vvvv-rplidar/build
 lib-rplidar/build
 lib-rplidar/.vs
 packages
