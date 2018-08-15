@@ -19,8 +19,9 @@ namespace VVVV.Nodes
     public class rplidar : IPluginEvaluate
     {
         #region fields & pins
-        [Input("Input", DefaultValue = 1.0)]
-        public ISpread<double> FInput;
+
+        [Input("Enable", DefaultValue = 0.0)]
+        public ISpread<bool> FEnable;
 
         [Output("Output")]
         public ISpread<double> FOutput;
@@ -29,22 +30,39 @@ namespace VVVV.Nodes
         public ILogger FLogger;
 
         [DllImport("lib-rplidar.dll")]
-        public static extern int testfunc(int n);
+        public static extern int init();
+
         [DllImport("lib-rplidar.dll")]
-        public static extern void test();
+        public static extern void startScan();
+
+        [DllImport("lib-rplidar.dll")] 
+        public static extern void stopScan();
+
+        private bool started;
+        private int deb;
 
         #endregion fields & pins
+        public rplidar() {
+            init();
+        }
 
         public void Evaluate(int SpreadMax)
         {
             FOutput.SliceCount = SpreadMax;
-
-            for (int i = 0; i < SpreadMax; i++)
-                FOutput[i] = testfunc((int)FInput[i]);
-
-            test();
-
-           // FLogger.Log(LogType.Debug, testfunc(0).ToString());
+            for (int i = 0; i < SpreadMax; i++){
+                if(started != FEnable[i]){
+                    started = FEnable[i];
+                    if(started) {
+                        FLogger.Log(LogType.Debug, "started");
+                        startScan();
+                    }
+                    else {
+                       FLogger.Log(LogType.Debug, "stoped");
+                         stopScan();
+                    }
+                }
+                FOutput[i] = deb;
+             }
         }
     }
 }
