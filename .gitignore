@@ -6,3 +6,4 @@ vvvv-rplidar/build
 lib-rplidar/build
 lib-rplidar/.vs
 packages
+*.xml
