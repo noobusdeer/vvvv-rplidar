@@ -47,7 +47,7 @@ namespace VVVV.Nodes
         [Input("Enable", DefaultValue = 0.0)]
         public ISpread<bool> FEnable;
 
-        [Input("Input", EnumName = CComEnum)]
+        [Input("Port Name", EnumName = CComEnum)]
 		public IDiffSpread<EnumEntry> FCom;
 
         // OUTPUT-PINS
@@ -69,7 +69,7 @@ namespace VVVV.Nodes
         // DLL Import
      
         [DllImport("lib-rplidar.dll")]
-        public static extern int connecting(string portName);
+        public static extern int connecting( string portName );
 
         [DllImport("lib-rplidar.dll")]
         public static extern void startScan();
@@ -81,21 +81,21 @@ namespace VVVV.Nodes
         public static extern int update();
 
         [DllImport("lib-rplidar.dll")] 
-        public static extern float getAngle(int i);
+        public static extern float getAngle( int i );
 
         [DllImport("lib-rplidar.dll")] 
-        public static extern float getDist(int i);
+        public static extern float getDist( int i );
 
         [DllImport("lib-rplidar.dll")] 
-        public static extern float getQuality(int i);
+        public static extern float getQuality( int i );
 
         [DllImport("lib-rplidar.dll")] 
         public static extern void finish();
 
         #endregion fields & pins
 
-        public void Evaluate(int SpreadMax) {
-            if(FConnection[0]) {
+        public void Evaluate( int SpreadMax ) {
+            if( FConnection[0] ) {
                 count = update();
                 FAngle.SliceCount = count;
                 FDist.SliceCount = count;
@@ -106,25 +106,27 @@ namespace VVVV.Nodes
                     FDist[i] = getDist(i);
                     FQ[i] = getQuality(i);
                 }
+            } 
+
+            if( portChange ) {
+                portChange = false;
+                FLogger.Log(LogType.Debug, "portChange");
+                FConnection[0] = Convert.ToBoolean( connecting("\\\\.\\" + FCom[0].Name) );
             }
 
-            if(portChange){
-                portChange = false;
-                FConnection[0] = Convert.ToBoolean(connecting("\\\\.\\" + FCom[0].Name));
-            }
-            if(CComEnumCashe != FCom[0].Name) {
+            if( CComEnumCashe != FCom[0].Name ) {
                 portChange = true;
                 CComEnumCashe = FCom[0].Name;
             }
 
-            if(started != FEnable[0]){
+            if( started != FEnable[0] ) {
                 started = FEnable[0];
-                if(started) {
+                if( started ) {
                     startScan();
                 } else {
                     stopScan();
                 }
-            }         
+            }      
         }
     }
 }
