@@ -7,3 +7,4 @@ lib-rplidar/build
 lib-rplidar/.vs
 packages
 *.xml
+.vscode
