@@ -1,5 +1,5 @@
-out
-!out/test.v4p
+out/*.xml
+out/*.dll
 .vs
 vvvv-rplidar/obj
 vvvv-rplidar/build
