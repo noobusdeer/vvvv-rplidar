@@ -1,4 +1,3 @@
-out/*.xml
 out/*.dll
 .vs
 vvvv-rplidar/obj
