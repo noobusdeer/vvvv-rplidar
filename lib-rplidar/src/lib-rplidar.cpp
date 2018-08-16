@@ -3,10 +3,11 @@
 using namespace rp::standalone::rplidar;
 
 RPlidarDriver * drv = NULL;
-const char * opt_com_path = "\\\\.\\com3";
 rplidar_response_measurement_node_t nodes[8192];
 u_result op_result;
+
 bool scanned = false;
+bool connectSuccess = false;
 
 bool checkRPLIDARHealth( RPlidarDriver * drv ) {
     u_result     op_result;
@@ -17,42 +18,38 @@ bool checkRPLIDARHealth( RPlidarDriver * drv ) {
         if (healthinfo.status == RPLIDAR_STATUS_ERROR) {
             fprintf(stderr, "Error, rplidar internal error detected. Please reboot the device to retry.\n");
             return false;
-        } 
-        else {
+        } else {
             return true;
         }
-    } 
-    else {
+    } else {
         fprintf(stderr, "Error, cannot retrieve the lidar health code: %x\n", op_result);
         return false;
     }
 }
 
-extern "C" int __declspec(dllexport) __stdcall init() {
-    drv = RPlidarDriver::CreateDriver(DRIVER_TYPE_SERIALPORT);
-    _u32 baudrateArray[2] = {115200, 256000};
-
-    if(!drv) return -1;
+extern "C"  int __declspec(dllexport) __stdcall connecting(const char* portName) {
     rplidar_response_device_info_t devinfo;
-    bool connectSuccess = false;
+    _u32 baudrateArray[2] = {115200, 256000};
     size_t baudRateArraySize = (sizeof(baudrateArray))/ (sizeof(baudrateArray[0]));
+    connectSuccess = false;
+    delete drv;
+    drv = NULL;
+    drv = RPlidarDriver::CreateDriver(DRIVER_TYPE_SERIALPORT);
     for(size_t i = 0; i < baudRateArraySize; ++i) {
         if(!drv) drv = RPlidarDriver::CreateDriver(DRIVER_TYPE_SERIALPORT);
-        if(IS_OK(drv->connect(opt_com_path, baudrateArray[i]))) {         
+        if(IS_OK(drv->connect(portName, baudrateArray[i]))) {         
             op_result = drv->getDeviceInfo(devinfo);
             if (IS_OK(op_result)) {
                 connectSuccess = true;
                 break;
-            } 
-            else {
+            } else {
                 delete drv;
                 drv = NULL;
             }
         }
     }
-    if(!connectSuccess) return -1;
-    if (!checkRPLIDARHealth(drv)) return -1;
-    return 1;
+    if(!connectSuccess) return 0;
+    if (!checkRPLIDARHealth(drv)) return 0;
 }
 
 extern "C" void __declspec(dllexport) __stdcall startScan() {
@@ -60,6 +57,7 @@ extern "C" void __declspec(dllexport) __stdcall startScan() {
     scanned = true;
     drv->startMotor();
     drv->startScan(0,1);
+    
 }
 
 extern "C" void __declspec(dllexport) __stdcall stopScan() {
@@ -81,19 +79,19 @@ extern "C" int __declspec(dllexport) __stdcall update() {
 }
 
 extern "C" float __declspec(dllexport) __stdcall getAngle(int i) {
-    if(!drv) return 0;
+    if(!connectSuccess) return 0;
     if(!scanned) return 0;
     return ((nodes[i].angle_q6_checkbit >> RPLIDAR_RESP_MEASUREMENT_ANGLE_SHIFT)/64.0f);
 }
 
 extern "C" float __declspec(dllexport) __stdcall getDist(int i) {
-    if(!drv) return 0;
+    if(!connectSuccess) return 0;
     if(!scanned) return 0;
     return (nodes[i].distance_q2/4.0f);
 }
 
 extern "C" float __declspec(dllexport) __stdcall getQuality(int i) {
-    if(!drv) return 0;
+    if(!connectSuccess) return 0;
     if(!scanned) return 0;
     return (nodes[i].sync_quality >> RPLIDAR_RESP_MEASUREMENT_QUALITY_SHIFT);
 }
