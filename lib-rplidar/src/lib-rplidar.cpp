@@ -2,9 +2,12 @@
 
 using namespace rp::standalone::rplidar;
 
+
+
 RPlidarDriver * drv = NULL;
 rplidar_response_measurement_node_t nodes[8192];
 u_result op_result;
+size_t count;
 
 bool scanned = false;
 bool connectSuccess = false;
@@ -48,8 +51,8 @@ extern "C"  int __declspec(dllexport) __stdcall connecting(const char* portName)
             }
         }
     }
-    if(!connectSuccess) return 0;
-    if (!checkRPLIDARHealth(drv)) return 0;
+    if( !connectSuccess ) return 0;
+    if( !checkRPLIDARHealth(drv) ) return 0;
 }
 
 extern "C" void __declspec(dllexport) __stdcall startScan() {
@@ -67,13 +70,27 @@ extern "C" void __declspec(dllexport) __stdcall stopScan() {
     drv->stopMotor();
 }
 
+DWORD WINAPI ThreadProc( __in  LPVOID lpParameter ) {
+    //rplidar_response_measurement_node_t tmpnodes[8192];
+    size_t tmpcount = _countof(nodes);
+    op_result = drv->grabScanData(nodes, tmpcount);
+    if (IS_OK(op_result)) {
+        drv->ascendScanData(nodes, tmpcount);
+    }
+    //nodes[0] = tmpnodes[0];
+    count = tmpcount;
+    return 0;
+}
+
 extern "C" int __declspec(dllexport) __stdcall update() {
     if(!drv) return 0;
     if(!scanned) return 0;
-    size_t count = _countof(nodes);
-    op_result = drv->grabScanData(nodes, count);
-    if (IS_OK(op_result)) {
-        drv->ascendScanData(nodes, count);
+    DWORD DllThreadID;
+    HANDLE DllThread; //thread's handle
+    DllThread=CreateThread(NULL,0,ThreadProc,0,0,&DllThreadID);
+    if (DllThread != NULL)
+    {
+        CloseHandle(DllThread);
     }
     return (int)count;
 }

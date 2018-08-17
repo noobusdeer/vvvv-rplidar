@@ -7,5 +7,6 @@
 #include <Windows.h>
 #include <stdio.h>
 #include "rplidar.h"
+#include <thread>
 
 // TODO: Reference additional headers your program requires here.

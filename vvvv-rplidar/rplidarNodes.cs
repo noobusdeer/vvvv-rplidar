@@ -3,12 +3,8 @@ using System;
 using System.Runtime.InteropServices;
 using System.ComponentModel.Composition;
 using System.Collections.Generic;
-using System.Linq;
-
 using VVVV.PluginInterfaces.V1;
 using VVVV.PluginInterfaces.V2;
-using VVVV.Utils.VColor;
-using VVVV.Utils.VMath;
 using System.IO.Ports;
 
 using VVVV.Core.Logging;
@@ -37,22 +33,14 @@ namespace VVVV.Nodes
             _AvailablePorts = tPorts.ToArray();
             EnumManager.UpdateEnum(CComEnum, "COM1", _AvailablePorts);
         }
-
-        ~rplidar() { 
-            stopScan();
-            finish(); 
-        }
-
         #region fields & pins
 
-        //INPUT-PINS
         [Input("Enable", DefaultValue = 0.0)]
         public ISpread<bool> FEnable;
 
         [Input("Port Name", EnumName = CComEnum)]
 		public IDiffSpread<EnumEntry> FCom;
 
-        // OUTPUT-PINS
         [Output("Angle")]
         public ISpread<double> FAngle;
 
@@ -64,12 +52,14 @@ namespace VVVV.Nodes
 
         [Output("Connected")]
         public ISpread<bool> FConnection;
-        
-        [Import()]
-        public ILogger FLogger;
 
-        // DLL Import
-     
+        [Import()]
+		public ILogger FLogger;
+
+        #endregion fields & pins
+
+        #region DLL Import
+    
         [DllImport("lib-rplidar.dll")]
         public static extern int connecting( string portName );
 
@@ -94,11 +84,14 @@ namespace VVVV.Nodes
         [DllImport("lib-rplidar.dll")] 
         public static extern void finish();
 
-        #endregion fields & pins
+        #endregion DLL Import
 
         public void Evaluate( int SpreadMax ) {
             if( FConnection[0] ) {
                 count = update();
+
+                FLogger.Log(LogType.Debug, "count: " + count);
+
                 FAngle.SliceCount = count;
                 FDist.SliceCount = count;
                 FQ.SliceCount = count;
@@ -112,7 +105,6 @@ namespace VVVV.Nodes
 
             if( portChange ) {
                 portChange = false;
-                FLogger.Log(LogType.Debug, "portChange");
                 FConnection[0] = Convert.ToBoolean( connecting("\\\\.\\" + FCom[0].Name) );
             }
 
@@ -121,7 +113,7 @@ namespace VVVV.Nodes
                 CComEnumCashe = FCom[0].Name;
             }
 
-            if( started != FEnable[0] && FConnection[0]) {
+            if( started != FEnable[0] && FConnection[0] ) {
                 started = FEnable[0];
                 if( started ) {
                     startScan();
@@ -131,8 +123,7 @@ namespace VVVV.Nodes
             }      
         }
 
-        public void Dispose()
-        {
+        public void Dispose() {
             stopScan();
             finish();
         }
