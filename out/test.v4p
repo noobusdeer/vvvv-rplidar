@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
-   <PATCH nodename="D:\noobusdeer\proj\VVVV\vvvv-rplidar\out\test (2).v4p" systemname="test" filename="D:\noobusdeer\proj\VVVV\vvvv-rplidar\test.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="D:\noobusdeer\proj\VVVV\vvvv-rplidar\out\test.v4p" systemname="test" filename="D:\noobusdeer\proj\VVVV\vvvv-rplidar\test.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="10965" top="1860" width="7290" height="7680">
    </BOUNDS>
    <PACK Name="dx11" Version="1.2">
@@ -11,7 +11,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1065" top="1125" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -21,7 +21,7 @@
    </PIN>
    <PIN pinname="Behavior" slicecount="1" values="Toggle">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="0">
+   <PIN pinname="X Input Value" slicecount="1" values="1">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Enable">
    </PIN>
@@ -103,31 +103,9 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Connected">
    </PIN>
-   <PIN pinname="Y Input Value" visible="1">
+   <PIN pinname="Y Input Value" visible="1" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <NODE systemname="RPLIDAR (Value)" filename="vvvv-rplidar.dll" nodename="RPLIDAR (Value)" componentmode="Hidden" id="32">
-   <BOUNDS type="Node" left="1050" top="2055" width="3255" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1050" top="2055" width="3000" height="3000">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="1" values="COM19">
-   </PIN>
-   <PIN pinname="Enable" visible="1">
-   </PIN>
-   <PIN pinname="Connected" visible="1">
-   </PIN>
-   <PIN pinname="Quality" visible="1">
-   </PIN>
-   <PIN pinname="Distance" visible="1">
-   </PIN>
-   <PIN pinname="Angle" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="32" dstpinname="Enable">
-   </LINK>
-   <LINK srcnodeid="32" srcpinname="Connected" dstnodeid="31" dstpinname="Y Input Value">
-   </LINK>
    <NODE systemname="Renderer (TTY)" nodename="Renderer (TTY)" componentmode="InAWindow" id="33">
    <BOUNDS type="Node" left="3225" top="5580" width="100" height="100">
    </BOUNDS>
@@ -228,12 +206,6 @@
    </LINK>
    <LINK srcnodeid="46" srcpinname="Transform Out" dstnodeid="43" dstpinname="Transform">
    </LINK>
-   <LINK srcnodeid="32" srcpinname="Angle" dstnodeid="18" dstpinname="Y Input Value">
-   </LINK>
-   <LINK srcnodeid="32" srcpinname="Distance" dstnodeid="17" dstpinname="Y Input Value">
-   </LINK>
-   <LINK srcnodeid="32" srcpinname="Quality" dstnodeid="28" dstpinname="Y Input Value">
-   </LINK>
    <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="65" systemname="IOBox (Enumerations)">
    <BOUNDS type="Box" left="4230" top="1125" width="1590" height="270">
    </BOUNDS>
@@ -244,22 +216,6 @@
    <PIN pinname="Descriptive Name" slicecount="1" values="|Port Name|">
    </PIN>
    <PIN pinname="Output Enum" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="65" srcpinname="Output Enum" dstnodeid="32" dstpinname="Input">
-   </LINK>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="66" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="3465" top="480" width="2565" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="3465" top="480" width="2565" height="270">
-   </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|переименуй инпут в порь нейм =)|">
-   </PIN>
-   <PIN pinname="Output String" visible="0">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
    <NODE systemname="EQ (Value)" nodename="EQ (Value)" componentmode="Hidden" id="67">
@@ -303,5 +259,39 @@
    <LINK srcnodeid="26" srcpinname="Output" dstnodeid="69" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="69" srcpinname="Output" dstnodeid="44" dstpinname="CenterX">
+   </LINK>
+   <NODE id="32" systemname="RPLIDAR (Value)" filename="vvvv-rplidar.dll" nodename="RPLIDAR (Value)" componentmode="Hidden">
+   <BOUNDS type="Node" left="1050" top="2055" width="3255" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1050" top="2055" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="COM19">
+   </PIN>
+   <PIN pinname="Enable" visible="1">
+   </PIN>
+   <PIN pinname="Connected" visible="1">
+   </PIN>
+   <PIN pinname="Quality" visible="1">
+   </PIN>
+   <PIN pinname="Distance" visible="1">
+   </PIN>
+   <PIN pinname="Angle" visible="1">
+   </PIN>
+   <PIN pinname="Port Name" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="65" srcpinname="Output Enum" dstnodeid="32" dstpinname="Port Name">
+   </LINK>
+   <LINK srcnodeid="65" srcpinname="Output Enum" dstnodeid="32" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="32" srcpinname="Quality" dstnodeid="28" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="32" srcpinname="Distance" dstnodeid="17" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="32" srcpinname="Angle" dstnodeid="18" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="32" srcpinname="Connected" dstnodeid="31" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="32" dstpinname="Enable">
    </LINK>
    </PATCH>

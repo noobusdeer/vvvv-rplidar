@@ -20,8 +20,7 @@ namespace VVVV.Nodes
     [PluginInfo(Name = "RPLIDAR", Category = "Value")]
     #endregion PluginInfo
 
-    public class rplidar : IPluginEvaluate
-    {
+    public class rplidar : IPluginEvaluate, IDisposable {
 
         private bool started;
         private int count = 0;
@@ -39,7 +38,10 @@ namespace VVVV.Nodes
             EnumManager.UpdateEnum(CComEnum, "COM1", _AvailablePorts);
         }
 
-        ~rplidar() { finish(); }
+        ~rplidar() { 
+            stopScan();
+            finish(); 
+        }
 
         #region fields & pins
 
@@ -119,7 +121,7 @@ namespace VVVV.Nodes
                 CComEnumCashe = FCom[0].Name;
             }
 
-            if( started != FEnable[0] ) {
+            if( started != FEnable[0] && FConnection[0]) {
                 started = FEnable[0];
                 if( started ) {
                     startScan();
@@ -127,6 +129,12 @@ namespace VVVV.Nodes
                     stopScan();
                 }
             }      
+        }
+
+        public void Dispose()
+        {
+            stopScan();
+            finish();
         }
     }
 }
